@@ -36,8 +36,6 @@ class LoadingIndicator {
     }
 
     fun hideProgress() {
-        if (mDialog != null) {
-            mDialog.dismiss()
-        }
+        mDialog.dismiss()
     }
 }

@@ -67,7 +67,6 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
-                Log.d("Failure", t.localizedMessage)
                 Toast.makeText(this@MainActivity, t.localizedMessage, Toast.LENGTH_LONG).show()
                 loadingIndicator.hideProgress()
             }

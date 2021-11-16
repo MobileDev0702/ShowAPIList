@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WilliamAPIList</string>
+    <string name="app_name">PublicAPI</string>
     <string name="description_underline"><u>Description:</u></string>
     <string name="auth_underline"><u>Auth:</u></string>
     <string name="Https_underline"><u>HTTPS:</u></string>
